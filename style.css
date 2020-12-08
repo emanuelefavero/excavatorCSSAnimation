@@ -1,0 +1,181 @@
+/* GLOBAL STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input,
+textarea,
+button,
+select,
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+
+/* STANDARD POSITIONING AND STYLING */
+body {
+    background: linear-gradient(to top, rgb(206, 160, 9), rgb(228, 188, 13));
+    /* background: rgb(23, 25, 34); */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* EXCAVATOR STYLING */
+.excavator {
+    width: 21rem;
+    height: 21rem;
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+}
+
+.one {
+    background: url("images/excavator/1skeleton.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.two {
+    background: url("images/excavator/2arm.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.three {
+    background: url("images/excavator/3shoulder.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.four {
+    background: url("images/excavator/4hand.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.five {
+    background: url("images/excavator/5head.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.six {
+    background: url("images/excavator/6base.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.seven {
+    background: url("images/excavator/7wheelA.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.eight {
+    background: url("images/excavator/8wheelB.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/* EXCAVATOR ANIMATIONS */
+.scale {
+    animation: scale 1s linear infinite;
+}
+
+@keyframes scale {
+    50% {
+        transform: scale(1.05) translateX(-3px) translateY(-3px);
+    }
+}
+
+.scale2 {
+    animation: scale2 1.2s linear infinite;
+}
+
+@keyframes scale2 {
+    50% {
+        transform: scale(0.95) translateX(-6px) translateY(3px);
+    }
+}
+
+.tilt {
+    animation: tilt 1.4s linear infinite;
+}
+
+@keyframes tilt {
+    50% {
+        transform: rotate(2.8deg);
+    }
+}
+
+.upDown {
+    animation: upDown 1.8s linear infinite;
+}
+
+@keyframes upDown {
+    50% {
+        transform: rotate(1deg) translateY(-4px);
+    }
+}
+
+.tremolo {
+    animation: tremolo .2s linear infinite;
+}
+
+@keyframes tremolo {
+    50% {
+        transform: translateX(-2px);
+    }
+}
+
+.turnUp {
+    animation: turnUp 5s linear infinite;
+}
+
+@keyframes turnUp {
+    25% {
+        transform: rotate(-50deg);
+    }
+
+    75% {
+        transform: rotate(20deg);
+    }
+}
+
+.extend {
+    animation: extend 5s linear infinite;
+}
+
+@keyframes extend {
+    25% {
+        transform: rotate(-100deg) translateX(20px) translateY(70px);
+    }
+
+    75% {
+        transform: rotate(15deg) translateX(20px);
+    }
+}
+
+/* LOGO TEXT */
+.logo-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}

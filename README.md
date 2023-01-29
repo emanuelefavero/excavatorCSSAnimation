@@ -8,3 +8,7 @@ This is an excavator icon animation made with CSS and PNG images
 
 - clone the repository
 - open the `index.html` file in your browser
+
+## License
+
+- [MIT](LICENSE.md)

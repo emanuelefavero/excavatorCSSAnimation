@@ -8,6 +8,10 @@ This is an excavator icon animation made with CSS and PNG images
 
 - [https://emanuelefavero.github.io/excavatorCSSAnimation/](https://emanuelefavero.github.io/excavatorCSSAnimation/)
 
+## GIF Example
+
+<img src="excavatorCSSAnimation.gif" alt="gif example" width="300">
+
 ## How to use
 
 - clone the repository
